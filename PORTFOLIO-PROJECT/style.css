@@ -1,0 +1,35 @@
+body{
+    margin:0;
+    font-family: arial;
+}
+nav{
+    display:flex;
+    align-items:space-between;
+    padding:20px;
+    background: black;
+    color:white
+}
+nav ul{
+    display:right;
+}
+nav a{
+    color:white;
+}
+.hero{
+    text-align:center;
+    padding:10px;
+}
+.card{
+    padding: 25;
+    background-color: lightpink;
+    border-radius: 10;
+}
+.skills{
+    display:flex;
+    gap:20px;
+    justify-content:center;
+}
+.project-card{
+    padding:10px;
+    border:1px;
+}
